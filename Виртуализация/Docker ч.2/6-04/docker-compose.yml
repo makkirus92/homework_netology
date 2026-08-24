@@ -6,5 +6,5 @@ volumes:
   vol1: {}
   vol2: {}
 networks:
-  wordpress:
-    name: wordpress
+  Homework:
+    name: kravchenko.yv-my-netology-hw
