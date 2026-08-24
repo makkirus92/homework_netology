@@ -1,0 +1,10 @@
+version: 1
+services:
+  Homework:
+    image: alt:latest
+volumes:
+  vol1: {}
+  vol2: {}
+networks:
+  wordpress:
+    name: wordpress
