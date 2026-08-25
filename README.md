@@ -84,7 +84,7 @@ networks:
   6-04_kravchenko.yv-my-netology-hw:
     external: true
 
-    ![alt text](main/screen/image.png)
+    ![alt text](screen/image.png)
 ```
 
 ## **Задание 4**
@@ -112,7 +112,7 @@ networks:
       config:
         - subnet: 10.5.0.0/16
 
-![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image copy.png)
+![alt text](screen/image2.png)
 ```
 ## **Задание 5**
 Выполните действия:
@@ -150,7 +150,7 @@ networks:
       config:
         - subnet: 10.5.0.0/16
 ```
-![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image  3.png
+![alt text](screen/image3.png
 
 ## **Задание 6**
 Выполните действия.
@@ -218,7 +218,7 @@ networks:
       config:
         - subnet: 10.5.0.0/16
 
-![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image 4.png)
+![alt text](screen/image4.png)
 ```
 
 ## **Задание 7**
@@ -292,9 +292,9 @@ networks:
       config:
         - subnet: 10.5.0.0/16
 ```
-![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image 5.png)
+![alt text](screen/image5.png)
 
-![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image 6.png)
+![alt text](screen/image6.png)
 ## **Задание 8**
 Выполните действия:
 
@@ -308,4 +308,4 @@ networks:
 ```
 docker compose down -v
 ```
-![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image 7.png)
+![alt text](screen/image7.png)
