@@ -1,0 +1,14 @@
+version: "1"
+services:
+  Homework:
+    image: alt:latest
+    networks:
+     - kravchenko.yv-my-netology-hw
+volumes:
+  vol1: {}
+  vol2: {}
+networks:
+  kravchenko.yv-my-netology-hw:
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
