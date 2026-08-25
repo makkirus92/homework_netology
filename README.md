@@ -83,9 +83,9 @@ volumes:
 networks:
   6-04_kravchenko.yv-my-netology-hw:
     external: true
-
-    ![alt text](screen/image.png)
 ```
+    ![alt text](screen/image.png)
+
 
 ## **Задание 4**
 Выполните действия:
