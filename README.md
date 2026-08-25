@@ -36,7 +36,7 @@ networks.
 При выполнении задания используйте подсеть 10.5.0.0/16. Ваша подсеть должна называться: <ваши фамилия и инициалы>-my-netology-hw. Все приложения из последующих заданий должны находиться в этой конфигурации.
 ## **Решение**
 
-services:
+```services:
   Homework:
     image: alt:latest
     networks:
@@ -49,6 +49,7 @@ networks:
     ipam:
       config:
         - subnet: 10.5.0.0/16
+```
 
 ## **Задание 3**
 *Выполните действия:*
@@ -58,6 +59,7 @@ networks:
 Обеспечьте внешний доступ к порту 9090 c докер-сервера.
 ## **Решение**
 docker-compose.yml
+```
 services:
 
   prometheus:
@@ -83,6 +85,7 @@ networks:
     external: true
 
     ![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image.png)
+```
 
 ## **Задание 4**
 Выполните действия:
@@ -90,6 +93,7 @@ networks:
 Создайте конфигурацию docker-compose для Pushgateway с именем контейнера <ваши фамилия и инициалы>-netology-pushgateway.
 Обеспечьте внешний доступ к порту 9091 c докер-сервера.
 ## **Решение**
+```
 pushgateway:
    image: prom/pushgateway
    container_name: kravchenko.yv-netology-pushgateway
@@ -108,7 +112,8 @@ networks:
       config:
         - subnet: 10.5.0.0/16
 
-        ![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image copy.png)
+![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image copy.png)
+```
 ## **Задание 5**
 Выполните действия:
 
@@ -117,6 +122,7 @@ networks:
 Добавьте переменную окружения с путем до файла с кастомными настройками (должен быть в томе), в самом файле пропишите логин=<ваши фамилия и инициалы> пароль=netology.
 Обеспечьте внешний доступ к порту 3000 c порта 80 докер-сервера.
 ## **Решение**
+```
 grafana:
     image: grafana/grafana:latest
     container_name: kravchenko.yv-netology-grafana
@@ -143,7 +149,7 @@ networks:
     ipam:
       config:
         - subnet: 10.5.0.0/16
-
+```
 ![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image  3.png
 
 ## **Задание 6**
@@ -154,6 +160,7 @@ networks:
 Настройте использование контейнерами одной сети.
 Запустите сценарий в detached режиме.
 ## **Решение**
+```
 services:
 
   prometheus:
@@ -211,7 +218,9 @@ networks:
       config:
         - subnet: 10.5.0.0/16
 
-        ![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image 4.png)
+![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image 4.png)
+```
+
 ## **Задание 7**
 Выполните действия.
 
@@ -225,6 +234,7 @@ docker-compose.yml целиком;
 скриншот команды docker ps после запуске docker-compose.yml;
 скриншот графика, построенного на основе вашей метрики.
 ## **Решение**
+```
 services:
 
   prometheus:
@@ -281,7 +291,7 @@ networks:
     ipam:
       config:
         - subnet: 10.5.0.0/16
-
+```
 ![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image 5.png)
 
 ![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image 6.png)
@@ -295,7 +305,7 @@ networks:
 
 Дополнительные задания* (со звёздочкой)
 Их выполнение необязательное и не влияет на получение зачёта по домашнему заданию. Можете их решить, если хотите лучше разобраться в материале.
-
+```
 docker compose down -v
-
+```
 ![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image 7.png)
