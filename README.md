@@ -84,7 +84,7 @@ networks:
   6-04_kravchenko.yv-my-netology-hw:
     external: true
 
-    ![alt text](/home/admin/Обучение/GitHub_Rep/homework_netology/screen/image.png)
+    ![alt text](main/screen/image.png)
 ```
 
 ## **Задание 4**
