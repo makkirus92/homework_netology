@@ -84,7 +84,7 @@ networks:
   6-04_kravchenko.yv-my-netology-hw:
     external: true
 ```
-    ![alt text](screen/image.png)
+![alt text](screen/image.png)
 
 
 ## **Задание 4**
@@ -111,9 +111,8 @@ networks:
     ipam:
       config:
         - subnet: 10.5.0.0/16
-
-![alt text](screen/image2.png)
 ```
+![alt text](screen/image2.png)
 ## **Задание 5**
 Выполните действия:
 
