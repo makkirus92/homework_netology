@@ -149,7 +149,7 @@ networks:
       config:
         - subnet: 10.5.0.0/16
 ```
-![alt text](screen/image3.png
+![alt text](screen/image3.png)
 
 ## **Задание 6**
 Выполните действия.
@@ -216,9 +216,9 @@ networks:
     ipam:
       config:
         - subnet: 10.5.0.0/16
-
-![alt text](screen/image4.png)
 ```
+![alt text](screen/image4.png)
+
 
 ## **Задание 7**
 Выполните действия.
